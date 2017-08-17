@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('CheckOut the code') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/SoftgenMani/api_services_project.git'
+      git 'https://github.com/SoftgenMani/ui_maven_project.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
